@@ -14,7 +14,7 @@ Why not?
   |  |- csslintrc.json  // CSSLint config file
   |
   |- system
-    |- .bashrc      // Terminal aliases
-    |- .dircolors   // Terminal solarize dark color theme
-    |- .fonts.conf  // Default system fonts
+     |- .bashrc      // Terminal aliases
+     |- .dircolors   // Terminal solarize dark color theme
+     |- .fonts.conf  // Default system fonts
 ```
