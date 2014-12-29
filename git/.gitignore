@@ -1,0 +1,156 @@
+# Linux ignores
+*~
+
+# TextMate ignores
+*.tmproj
+*.tmproject
+tmtags
+
+# VIM ignores
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Emacs ignores
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+.org-id-locations
+*_archive
+*_flymake.*
+/eshell/history
+/eshell/lastdir
+/elpa
+
+# Sublime ignores
+*.sublime-workspace
+*.sublime-project
+
+# Dreamweaver ignores
+_notes
+dwsync.xml
+
+# Eclipse ignores
+*.pydevproject
+.metadata
+.gradle
+/bin
+/tmp
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# Netbeans ignores
+/nbproject/private
+/build
+/nbbuild
+/dist
+/nbdist
+nbactions.xml
+nb-configuration.xml
+
+# Visual Studio ignores
+[Pp]ackages
+/sql
+/ClientBin
+*.Cache
+*.shfbproj
+*.shfbproj_*
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.dotCover
+
+# C/C++ ignores
+*.slo
+*.lo
+*.ko
+*.o
+*.obj
+*.elf
+*.so
+*.so.*
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Python ignores
+__pycache__/
+*.py[cod]
+.Python
+/env
+/bin
+/build
+/develop-eggs
+/dist
+/eggs
+/lib
+/lib64
+/parts
+/sdist
+/var
+*.egg-info/
+.installed.cfg
+*.egg
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.pot
+
+# Node ignores
+/lib-cov
+/app-cov
+lcov.info
+*.seed
+npm-debug.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids
+/results
+/build
+.grunt
+/node_modules
+
+# Vagrant ignores
+.vagrant/
+
+# VirtualEnv ignores
+.Python
+[Ii]nclude
+[Ss]cripts
+
+# Composer ignores
+composer.phar
+/vendor
+
+# SASS ignores
+/sass-cache
+.sass-cache

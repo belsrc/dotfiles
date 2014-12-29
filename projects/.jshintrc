@@ -1,0 +1,54 @@
+{
+    "maxerr"        : 100,      // Max # of errors before stopping
+    "browser"       : true,     // Browser globals
+
+    // Libraries
+    "jquery"        : false,
+    "prototypejs"   : false,
+    "mootools"      : false,
+    "dojo"          : false,
+
+    // Development
+    "debug"         : false,
+    "devel"         : true,
+    "maxcomplexity" : 10,       // Max method complexity
+
+    // ES5
+    "es5"           : true,
+    "strict"        : false,
+    "globalstrict"  : false,
+
+    // Coding Rules
+    "asi"           : false,    // Allow auto semicolon
+    "laxbreak"      : false,    // Allow unsafe line breaks e.g. `return [\n] x`
+    "bitwise"       : false,    // Prohibit bitwise operators
+    "boss"          : false,    // Tolerate assignments inside condition statements
+    "curly"         : true,     // Require {} for every new block or scope.
+    "eqeqeq"        : true,     // Require triple equals i.e. `===`.
+    "eqnull"        : true,     // Allow use of `== null`.
+    "evil"          : false,    // Allow use of `eval`.
+    "expr"          : false,    // Allow `ExpressionStatement` as Programs.
+    "forin"         : true,     // Allow `for in` loops without `hasOwnPrototype`.
+    "immed"         : true,     // Require immediate invocations to be wrapped in parens e.g. `( function(){}() );`
+    "latedef"       : true,     // Prohibit variable use before definition.
+    "loopfunc"      : false,    // Allow functions to be defined within loops.
+    "noarg"         : true,     // Prohibit use of `arguments.caller` and `arguments.callee`.
+    "regexp"        : false,    // Prohibit `.` and `[^...]` in regular expressions.
+    "regexdash"     : false,    // Allow unescaped last dash i.e. `[-...]`.
+    "scripturl"     : true,     // Allow script-targeted URLs.
+    "shadow"        : false,    // Allows re-define variables later in code e.g. `var x=1; x=2;`.
+    "supernew"      : false,    // Allow `new function () { ... };` and `new Object;`.
+    "undef"         : true,     // Require all non-global variables be declared before they are used.
+    "unused"        : true,     // Require all declared variables to be used.
+
+    // Personal
+    "camelcase"     : true,     // Require variables be camel cased.
+    "newcap"        : true,     // Require capitalization of all constructor functions e.g. `new F()`.
+    "indent"        : 2,        // Require specific tab length.
+    "quotmark"      : "single", // Require specific quote style.
+    "noempty"       : true,     // Prohibit use of empty blocks.
+    "nonew"         : true,     // Prohibit use of constructors for side-effects.
+    "plusplus"      : false,    // Prohibit use of `++` & `--`.
+    "sub"           : false,    // Allow all forms of subscript notation besides dot notation e.g. `dict['key']` instead of `dict.key`.
+    "trailing"      : true      // Prohibit trailing whitespaces.
+}

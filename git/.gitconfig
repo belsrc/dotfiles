@@ -1,0 +1,82 @@
+[user]
+  name =
+  email =
+[alias]
+    # Pretty logs
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+
+    # Shorthand diff command
+    d = diff
+
+    # Shorthand pull command
+    # git pl origin master
+    pl = pull
+
+    # Shorthand push command
+    # git ps origin master
+    ps = push
+
+    # Shorthand commit command
+    c = commit
+
+    # Commit with message
+    # git cm "Commit message"
+    cm = commit -m
+
+    # Add all files and commit
+    # git cam "Commit message"
+    cam = !git add -A && git commit -m
+
+    # Switch to a branch, creating it if necessary
+    # git co new-branch
+    co = checkout -B
+
+    # Short format status messages
+    s = status -s
+
+    # Shorthand branch command
+    b = branch
+
+    # List branches and last commit
+    bv = branch -v
+
+    # Show a list of tags
+    t = tag -l
+
+    # Remove branches that have already been merged with master
+    dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+
+    # remove files from index (tracking)
+    unstage = reset HEAD
+
+    # Go back before last commit, with files in uncommitted state
+    uncommit = reset --soft HEAD^
+
+    # Removes item from tracking
+    softdel = rm --cache
+
+    # Show merge conflict lines http://haacked.com/archive/2014/02/21/reviewing-merge-commits/
+    mergecon = git show --cc
+
+[color]
+    # Use colors in Git commands that are capable of colored output when
+    # outputting to the terminal.
+    ui = auto
+[color "branch"]
+    current = red reverse
+    local = yellow
+    remote = cyan
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = cyan bold
+[color "status"]
+    added = green
+    changed = cyan
+    untracked = red bold
+[merge]
+    # Include summaries of merged commits in newly created merge commit messages
+    log = true
+[core]
+  excludesfile = #/path/to/global/git/.gitignore
