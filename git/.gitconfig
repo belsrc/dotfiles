@@ -42,6 +42,15 @@
 
     # Show a list of tags
     t = tag -l
+    
+    # Recursive Clone (submodules)
+		cloner = clone --recursive
+
+		# Recursive (submodules) Pull Command
+		plr = pull --recurse-submodules
+
+		# Recursive (submodules) Pull Command
+		psr = push --recurse-submodules
 
     # Remove branches that have already been merged with master
     dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
