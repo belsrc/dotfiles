@@ -221,6 +221,12 @@ cd ..
 # This assumes you took default port during install
 sudo service redis_6379 start
 
+# Install PHP
+clear
+echo "Installing PHP..."
+echo ""
+sudo apt-get -y install php5-common libapache2-mod-php5 php5-cli
+
 # Install Node
 clear
 echo "Installing Node..."
