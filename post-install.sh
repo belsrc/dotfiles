@@ -95,6 +95,22 @@ echo "Installing Atom..."
 echo ""
 sudo apt-get -y install atom
 
+# Install Atom Packages
+clear
+echo "Installing Atom Packages..."
+echo ""
+apm install atom-beautify
+apm install autocomplete-php
+apm install autocomplete-sass
+apm install docblockr
+apm install file-icons
+apm install linter
+apm install linter-jshint
+apm install linter-php
+apm install project-manager
+apm install symbols-tree-view
+apm install tag
+
 # Install FileZilla
 clear
 echo "Installing FileZilla..."
