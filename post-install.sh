@@ -26,6 +26,8 @@ sudo add-apt-repository -y ppa:nathandyer/vocal-daily
 sudo apt-add-repository -y ppa:numix/ppa
 # ElementaryPlus Icons
 sudo add-apt-repository -y ppa:cybre/elementaryplus
+# Tweaks
+#curl -sL  http://i-hate-farms.github.io/spores/install | sudo bash - 
 # f.lux
 sudo add-apt-repository -y ppa:kilian/f.lux
 # Make
@@ -158,6 +160,12 @@ echo "Installing f.lux..."
 echo ""
 sudo apt-get -y install fluxgui
 
+# Install Elementary tweaks
+#clear
+#echo "Installing Elementary tweaks..."
+#echo ""
+#curl -sL  http://i-hate-farms.github.io/spores/install | sudo bash -
+#sudo apt-get -y install elementary-tweaks
 
 
 
