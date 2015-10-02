@@ -45,6 +45,12 @@
     
     # Recursive Clone (submodules)
     cloner = clone --recursive
+    
+    # Attach Submodules
+		asm = submodule foreach git checkout master
+
+		# Update Submodules
+		usm = submodule foreach git pull origin master
 
     # Recursive (submodules) Pull Command
     plr = pull --recurse-submodules
