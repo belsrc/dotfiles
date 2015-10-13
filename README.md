@@ -18,3 +18,6 @@ Why not?
      |- .dircolors   // Terminal solarize dark color theme
      |- .fonts.conf  // Default system fonts
 ```
+
+
+[ElementaryOS nVidia Driver Install](https://gist.github.com/belsrc/d94bc6542a05851c71fb)
