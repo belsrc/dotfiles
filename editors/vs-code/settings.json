@@ -5,6 +5,7 @@
 	"editor.fontSize": 16,
 	"editor.glyphMargin": true,
 	"editor.tabSize": 2,
+	"editor.renderWhitespace": true,
 	"editor.insertSpaces": true,
 	"editor.roundedSelection": false,
 	"files.trimTrailingWhitespace": true,
